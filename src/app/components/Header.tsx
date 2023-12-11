@@ -66,7 +66,7 @@ const Header = (props: Props) => {
                   Al-Fatah Quran Academy
                 </h1>
                 <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
-                  Services
+                  Learn More
                 </button>
               </div>
             </div>
