@@ -66,9 +66,16 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Education opens doors.
                 </h1>
-                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
-                  Learn More
-                </button>
+                <Link
+                  target="_blank"
+                  href={
+                    "https://www.linkedin.com/in/al-fatah-quran-academy-812a9a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  }
+                >
+                  <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -91,9 +98,16 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   The Silent Connection of the Soul
                 </h1>
-                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
-                  Services
-                </button>
+                <Link
+                  target="_blank"
+                  href={
+                    "https://web.facebook.com/profile.php?id=61554539400531&_rdc=1&_rdr"
+                  }
+                >
+                  <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -116,9 +130,16 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Allah's Generous Reward
                 </h1>
-                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
-                  Services
-                </button>
+                <Link
+                  target="_blank"
+                  href={
+                    "https://www.instagram.com/alfatah842?igshid=NGVhN2U2NjQ0Yg%3D%3D"
+                  }
+                >
+                  <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
