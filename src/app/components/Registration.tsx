@@ -28,10 +28,11 @@ const Registration = (props: Props) => {
               />
             </div>
             <p className="text-[#1E1E1E] font-bold pt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              quidem incidunt ratione. Aliquam deleniti harum est, architecto
-              praesentium sed voluptates quis consectetur cupiditate
-              repudiandae, modi nesciunt illum rerum voluptas consequatur!
+              Welcome to Alfatah Academy registration process! Signing up is a
+              breeze—simply provide your details and select your desired
+              program. Need more assistance? Feel free to reach out on our
+              WhatsApp for personalized support. We are here to help you embark
+              on your educational journey with us
             </p>
             <div className="bg-[#544214] custom-shadow mt-[5rem] rounded-[2rem] px-5 py-24">
               <div className="lg:w-4/5 custom-shadow bg-[#FFE5A2] rounded-[2rem] md:w-2/3 mx-auto p-3 md:p-10 md:px-14 md:mt-[-9.5rem]">

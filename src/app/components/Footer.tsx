@@ -23,7 +23,7 @@ const Footer = (Props: Props) => {
               src={FooterLogo}
               alt="Picture of the author"
             />
-            <p className="text-[#FFE5A2] text-[1rem]">
+            <p className="text-[#FFE5A2] text-left text-[1rem]">
               We built the Al Fatah Quran Academy website to make learning about
               the Quran easy for everyone. Our goal is to connect people
               worldwide with the teachings of the Quran using an online
@@ -120,15 +120,34 @@ const Footer = (Props: Props) => {
               </div>
             </div>
             <span className="inline-flex gap-2 sm:ml-auto sm:mt-0 md:mt-2 justify-center sm:justify-start pt-5">
-              <a className="text-[#FFE5A2] ">
+              <Link
+                href={
+                  "https://web.facebook.com/profile.php?id=61554539400531&_rdc=1&_rdr"
+                }
+                target="_blank"
+                className="text-[#FFE5A2] "
+              >
                 <FaFacebook className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
-              </a>
-              <a className="ml-3 text-[#FFE5A2]">
+              </Link>
+
+              <Link
+                href={
+                  "https://www.instagram.com/alfatah842?igshid=NGVhN2U2NjQ0Yg%3D%3D"
+                }
+                target="_blank"
+                className="ml-3 text-[#FFE5A2]"
+              >
                 <AiFillInstagram className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
-              </a>
-              <a className="ml-3 text-[#FFE5A2]">
+              </Link>
+              <Link
+                href={
+                  "https://www.linkedin.com/in/al-fatah-quran-academy-812a9a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                }
+                target="_blank"
+                className="ml-3 text-[#FFE5A2]"
+              >
                 <FaLinkedin className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
-              </a>
+              </Link>
               <Link
                 href={"https://wa.me/+923460511514?"}
                 target="_blank"

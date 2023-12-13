@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React from "react";
 import HeaderImg from "../../../public/assets/header.png";
@@ -23,7 +24,7 @@ const Header = (props: Props) => {
     >
       <SwiperSlide>
         <div
-          className="relative overflow-hidden h-[90vh] bg-cover bg-no-repeat "
+          className="relative overflow-hidden h-[95vh] md:h-[90vh] bg-cover bg-no-repeat "
           style={{
             backgroundPosition: "50%",
             backgroundImage: `url(${HeaderImg.src})`,
@@ -34,8 +35,8 @@ const Header = (props: Props) => {
               className="flex h-full items-center justify-center"
               style={{ marginTop: "7rem" }}
             >
-              <div className="px-6 text-center text-white md:px-12">
-                <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
+              <div className="px-6 text-center text-white md:px-12 pb-4">
+                <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Al-Fatah Quran Academy
                 </h1>
                 <Link href={"/services"}>
@@ -62,8 +63,8 @@ const Header = (props: Props) => {
               style={{ marginTop: "7rem" }}
             >
               <div className="px-6 text-center text-white md:px-12">
-                <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
-                  Al-Fatah Quran Academy
+                <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
+                  Education opens doors.
                 </h1>
                 <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Learn More
@@ -87,8 +88,8 @@ const Header = (props: Props) => {
               style={{ marginTop: "7rem" }}
             >
               <div className="px-6 text-center text-white md:px-12">
-                <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
-                  Al-Fatah Quran Academy
+                <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
+                  The Silent Connection of the Soul
                 </h1>
                 <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services
@@ -112,8 +113,8 @@ const Header = (props: Props) => {
               style={{ marginTop: "7rem" }}
             >
               <div className="px-6 text-center text-white md:px-12">
-                <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
-                  Al-Fatah Quran Academy
+                <h1 className="text-[#544214] pt-20 mb-4 text-4xl sm:text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
+                  Allah's Generous Reward
                 </h1>
                 <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services

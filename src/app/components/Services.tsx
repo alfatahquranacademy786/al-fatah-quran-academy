@@ -60,7 +60,7 @@ const Services = (props: Props) => {
                       Nazra
                     </h2>
                     <p className="text-[1.25rem] mt-4 text-[#544214] group-hover:text-[#FFE5A2]">
-                      This is the basic learning of quran
+                      This is the course of recitation of quran
                     </p>
                   </div>
                 </div>

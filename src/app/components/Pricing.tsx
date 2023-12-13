@@ -22,11 +22,11 @@ const Pricing = (props: Props) => {
               alt="Picture of the author"
             />
           </div>
-          <p className="lg:w-2/3 leading-relaxed text-base font-bold pt-5 text-[#000000]">
+          <p className="leading-relaxed text-base font-bold pt-5 text-[#000000]">
             We believe in making quranic education accessible to all. Our fee
             structure is designed to be transparent and affordable, ensuring
             that in individuals from diverse background can embark on their
-            quranic journey
+            quranic journey.
           </p>
         </div>
         <div className="flex justify-evenly flex-wrap w-full">
@@ -102,7 +102,7 @@ const Pricing = (props: Props) => {
                 <div className="flex items-center ">
                   <FaCheckCircle className="text-[#0cae1c]" />
                   <p className="pl-3 text-lg font-medium text-[#000000]">
-                    8 Classes / Month
+                    12 Classes / Month
                   </p>
                 </div>
                 <div className="flex items-center ">
@@ -151,7 +151,7 @@ const Pricing = (props: Props) => {
                 <div className="flex items-center ">
                   <FaCheckCircle className="text-[#0cae1c]" />
                   <p className="pl-3 text-lg font-medium text-[#000000]">
-                    8 Classes / Month
+                    20 Classes / Month
                   </p>
                 </div>
                 <div className="flex items-center ">
