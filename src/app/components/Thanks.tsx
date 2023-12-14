@@ -16,7 +16,7 @@ const Thanks = (props: Props) => {
           your information submitted to admin kindly confirm your order via
           whatsapp chat click
         </p>
-        <Link href={"https://wa.me/+9230947583?"} target="_blank">
+        <Link href={"https://wa.me/+923460511514?"} target="_blank">
           <button className="custom-shadow w-full font-semibold text-center bg-[#544214] border-0 py-2 px-4 focus:outline-none hover:bg-[#544214] rounded-full text-[#FFE5A2]  ">
             Whats app Chat
           </button>
